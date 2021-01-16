@@ -43,6 +43,11 @@ training:
     pages:
       - page: openapi/reference.page.yaml/*
 
+  - group: Open banking
+    expanded: false
+    pages:
+      - page: openapi/cds.page.yaml/*
+
   - group: Admin
     expanded: true
     pages:
@@ -65,7 +70,7 @@ training:
                             expanded: true
                             pages:
                               - label: Upgrading
-                                # page: developer-portal/upgrade.md
+                                page: developer-portal/upgrade.md
 alternative:
   - page: developer-portal/sidebar-alternative.md
     label: Alternative sidebar example
